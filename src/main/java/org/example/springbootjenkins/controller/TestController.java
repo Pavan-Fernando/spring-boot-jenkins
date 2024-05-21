@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public  TestController {
+public class TestController {
 
     private final Logger logger = LoggerFactory.getLogger(TestController.class);
     @GetMapping("/welcome")
