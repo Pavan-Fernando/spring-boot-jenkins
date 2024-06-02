@@ -14,6 +14,7 @@ public class TestController {
     @GetMapping("/welcome")
     public ResponseEntity<String> welcome(){
         logger.info("test controller received the request!");
+
         return  new ResponseEntity<>("welcome to example of jenkins with spring boot", HttpStatus.OK);
     }
 }
